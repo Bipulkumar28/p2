@@ -1,0 +1,5 @@
+# Use official Apache image from Docker Hub
+FROM httpd:2.4
+
+# Copy your HTML file into Apache’s default directory
+COPY index.html /usr/local/apache2/htdocs/
